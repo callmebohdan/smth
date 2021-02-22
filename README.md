@@ -1,7 +1,11 @@
-Network traffic daemon.
+Network traffic daemon
+====
 
 This daemon allow user to sniff packets from particular network interface (or all interfaces).
 It can work in two modes - via CLI (Command Line Interface) and as independent daemon in background. Be careful about both modes! If user doesn't stop daemon (using 'make clean' or 'stop' command while executing daemon in CLI mode), then it will continue sniffing packets. In future that will lead to memory leaks.
+
+Available options
+----
 
 This program uses build automation tool (make). It support following commands:
 * **make**, **make all** - process all targets, in our case it's __main__ and __daemon__.
