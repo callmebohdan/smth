@@ -1,8 +1,8 @@
 Network traffic daemon
 ====
 
-This daemon allow user to sniff packets from particular network interface (or all interfaces).
-It can work in two modes - via CLI (Command Line Interface) and as independent daemon in background. Be careful about both modes! If user doesn't stop daemon (using 'make clean' or 'stop' command while executing daemon in CLI mode), then it will continue sniffing packets. In future that will lead to memory leaks.
+This daemon allows user to sniff packets from particular network interface (or all interfaces).
+It can work in two modes - via CLI (Command Line Interface) and as independent daemon in background. Be careful about both modes! If user doesn't stop daemon (using ``make clean`` to remove log files and kill daemon, or ``stop`` command while executing daemon in CLI mode), then it will continue sniffing packets. In future that will lead to memory leaks.
 
 Available options
 ----
