@@ -7,7 +7,7 @@ It can work in two modes - via CLI (Command Line Interface) and as independent d
 Available options
 ----
 
-This program uses build automation tool (make). It support following commands:
+This program uses build automation tool (make). It supports following commands:
 * ``make``, ``make all`` - process all targets, in our case it's **main** and **daemon**.
 * ``make main`` - process target **main**. It starts daemon, using command line interface..
 * ``make daemon`` - process target **daemon**. It starts daemon itself independently in background.
